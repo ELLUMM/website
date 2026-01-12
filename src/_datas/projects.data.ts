@@ -10,33 +10,33 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "first-children",
-    title: "Ayanami Rei",
+    id: "first-agent",
+    title: "Clove",
     description:
-      "Ayanami Rei is the First Children and the pilot of Evangelion Unit-00. She is a quiet and emotionally reserved character whose identity is closely tied to themes of loneliness, self-sacrifice, and existential uncertainty. Rei’s presence throughout the series reflects questions about individuality, humanity, and what it means to exist as oneself.",
+      "True to her concept of not fearing death, Clove's greatest strength lies in her ability to influence enemies even after death. She resembles Reina in that she restores health by killing enemies, and Phoenix in that she possesses a resurrection ultimate.",
     coverImage: {
-      src: "/projects/ayanami.png",
-      alt: "The First Children",
+      src: "/projects/clove2.jpg",
+      alt: "The First Agent",
     },
   },
   {
-    id: "second-children",
-    title: "Soryu Asuka Langley",
+    id: "second-agent",
+    title: "Omen",
     description:
-      "Soryu Asuka Langley is the Second Children and the pilot of Evangelion Unit-02. She is confident, outspoken, and driven by a strong desire to prove her own worth. Beneath her bold exterior, Asuka struggles with deep-seated insecurity and fear of abandonment, making her character a portrayal of pride, vulnerability, and emotional conflict.",
+      "Basically, it performs the role of a smokescreen. At the same time, it is an all-weather agent that can flexibly perform the roles of a semi-entry using the Footprints of Darkness, a scout using Delusion of Persecution, and an info character using the ultimate.",
     coverImage: {
-      src: "/projects/soryu.png",
-      alt: "The Second Children",
+      src: "/projects/omen.jpg",
+      alt: "The Second Agent",
     },
   },
   {
-    id: "third-children",
-    title: "Ikari Shinji",
+    id: "third-agent",
+    title: "Viper",
     description:
-      "Ikari Shinji is the Third Children and the pilot of Evangelion Unit-01. He is an introverted and sensitive character who is constantly torn between the need for human connection and the fear of being hurt. Shinji’s journey centers on themes of isolation, self-worth, and the difficulty of facing reality while seeking acceptance from others.",
+      "The frequency of dual-smoke combinations, where a spherical smoke agent serves as the main smokescreen and a Viper, specialized in area control and installation skills, replaces the Watcher, has increased. In competitions, the Watcher can be seen as the team's tail or a separate unit, but like the strike team's Yoru and Isor, the Viper can also operate as a tail or lurker.",
     coverImage: {
-      src: "/projects/ikari.png",
-      alt: "The Third Children",
+      src: "/projects/viper2.jpg",
+      alt: "The Third Agent",
     },
   },
 ];

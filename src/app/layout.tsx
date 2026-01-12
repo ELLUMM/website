@@ -9,7 +9,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Sua Lee | Web Developer",
+  title: "MinKyung Kim | Web Developer",
   description: "Computer science student and web developer focused on building clear, reliable web applications.",
 };
 

@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-background">
       <main className="flex min-h-screen flex-col items-center justify-between py-32 px-16">
         <div className="flex flex-col items-center py-16 px-32 space-y-6 text-center">
-          <h1 className="text-5xl">Hi, I'm Sua Lee – Web Developer in South Korea</h1>
+          <h1 className="text-5xl">Hi, I'm MinKyung Kim – Web Developer in South Korea</h1>
           <h2 className="text-3xl mx-3">Computer Science Student & Web Developer</h2>
           <p className="text-base mx-10 mb-10">I am a Computer Science student at Incheon National University,<br/>
             building web applications with a focus on clarity, structure, and usability.<br></br>
@@ -19,7 +19,7 @@ export default function Home() {
         <ProjectsSection/>
         <div className="flex flex-col items-center justify-center my-14 p-2 space-y-3 border border-neutral-800 rounded-lg bg-neutral-900 w-6/11 h-40">
           <p className="text-lg font-thin text-white text-center"> Ready to start your custom web development project? <br/> For a free consultation. </p>
-          <CustomWhiteButton text="Contact Sua"/>
+          <CustomWhiteButton text="Contact MinKyung"/>
         </div>
       </main>
     </div>
