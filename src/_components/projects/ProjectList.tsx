@@ -7,9 +7,10 @@ type Props = {
 
 export default function ProjectList({ projects }: Props) {
   return (
-    <ul className="flex gap-10">
+    // grid-cols-3: 한 줄에 3개씩
+    <ul className="grid grid-cols-3 gap-x-6 gap-y-10 w-full">
       {projects.map((p) => (
-        <li key={p.id} className="flex-1 basis-0">
+        <li key={p.id}>
           <ProjectCard project={p} />
         </li>
       ))}
