@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { Quicksand } from "next/font/google";
+import { Quicksand} from "next/font/google";
 import "./globals.css";
+import Navbar from "@/_components/projects/Navbar"
+import Footer from "@/_components/projects/Footer"
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -10,20 +12,19 @@ const quicksand = Quicksand({
 
 export const metadata: Metadata = {
   title: "MinKyung Kim | Web Developer",
-  description: "Computer science student and web developer focused on building clear, reliable web applications.",
+  description: "Computer science student",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body
-        className={`${quicksand.variable} font-sans antialiased`}
-      >
-        {children}
+    <html>
+      <body>
+        <div className="flex flex-col items-center mx-auto"> 
+          <Navbar /> 
+          <main>{children}</main>
+          <Footer/>
+        </div>
       </body>
     </html>
   );
