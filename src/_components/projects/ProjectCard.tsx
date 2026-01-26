@@ -4,9 +4,10 @@ import CustomBlackButton from "../CustomBlackButton";
 
 type Props = {
   project: Project;
+  buttonText?: string; 
 };
 
-export default function ProjectCard({ project }: Props) {
+export default function ProjectCard({ project, buttonText = "View Project →" }: Props) {
   return (
     <article className="overflow-hidden rounded-2xl bg-neutral-900 border border-neutral-800">
       <div className="relative h-[200px] w-full ">
@@ -28,7 +29,8 @@ export default function ProjectCard({ project }: Props) {
           {project.description}
         </p>
         <div className="mt-6">
-          <CustomBlackButton text = "View Project" />
+          {/* 부모가 전달한 buttonText를 사용하고, 없으면 기본값(View Project)을 사용함 */}
+          <CustomBlackButton text={buttonText} />
         </div>
       </div>
       
