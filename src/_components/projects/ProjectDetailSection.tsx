@@ -2,7 +2,7 @@ import Image from "next/image";
 import "@/_datas/projects.data"
 
 interface ProjectDetailProps {
-  project: any; // 정확한 타입이 있다면 적용 (예: Project)
+  project: any; 
 }
 
 export default function ProjectDetailSection({ project }: ProjectDetailProps) {
@@ -31,7 +31,7 @@ export default function ProjectDetailSection({ project }: ProjectDetailProps) {
                             href={project.websiteUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="underline decoration-sky-500 decoration-2 underline-offset-4"
+                            className="underline decoration-white-500 decoration-2 underline-offset-4"
                             >
                             See Live
                         </a>
@@ -53,7 +53,6 @@ export default function ProjectDetailSection({ project }: ProjectDetailProps) {
         </div>
 
             
-        {/* 3. 이미지 */}
         {/* 3. 이미지 */}
         <div className="w-full bg-white/10 rounded-2xl overflow-hidden">
             <Image

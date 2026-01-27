@@ -8,7 +8,7 @@ export default function AboutSection() {
     <section className="bg-black text-white pt-32 px-6 md:px-0">
       <div className="mx-auto"style={{ maxWidth: '1232px' }}>
         
-        <div className="text-center mb-20 md:mb-36">
+        <div className="text-center mb-20 md:mb-36 pop-down" style={{ animationDelay: "250ms" }}>
           <h1 className="text-white text-5xl font-thin mb-10 leading-[52.8px] capitalize">
             {aboutData.title}
           </h1>
@@ -18,7 +18,7 @@ export default function AboutSection() {
         </div>
 
         <div className="flex flex-row items-center justify-between gap-10 w-full mb-32">
-          <div className="flex-1 w-full flex flex-col">
+          <div className="flex-1 w-full flex flex-col pop-down" style={{ animationDelay: "100ms" }}>
             <h2 className="text-white text-3xl font-thin leading-snug"style={{ marginBottom: '50px' }}>
               {aboutData.descriptionTitle}
             </h2>
@@ -28,8 +28,8 @@ export default function AboutSection() {
           </div>
 
           <div className="shrink-0">
-            <div className="relative rounded-full overflow-hidden bg-black"
-                  style ={{ width: '450px', height: '450px' }}>
+            <div className="relative rounded-full overflow-hidden bg-black pop-down"
+                  style ={{ width: '450px', height: '450px', animationDelay: "100ms" }}>
               <Image
                 src={aboutData.profileImage.src}
                 alt={aboutData.profileImage.alt}
