@@ -2,7 +2,7 @@ import PortfoliosSection from "@/_components/projects/PortfoliosSection";
 
 export default function PortfolioPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-background pt-[140px] pb-[140px] px-[24px]">
+    <div className="flex flex-col min-h-screen bg-background pt-[140px] pb-[140px] px-[24px] page-enter">
       <div className="max-w-[1200px] mx-auto flex flex-col items-start w-full">
 
         <h1 className="text-[38px] font-light leading-tight mb-10">MAKING DIGITAL SOLUTIONS</h1>

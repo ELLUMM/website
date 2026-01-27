@@ -9,7 +9,6 @@ export type Project = {
   jobRole: string;
   client: string;
   year: string;
-  website: string;
   websiteUrl: string;
   tech: string[];
 };
@@ -27,7 +26,6 @@ export const projects: Project[] = [
     jobRole: "Controller",
     client: "Valorant",
     year: "2024",
-    website: "See Live",
     websiteUrl: "https://playvalorant.com/ko-kr/agents/clove/",
     tech: ["Meddle", "Ruse", "Pick-Me-Up", "Not Dead Yet"]
 
@@ -44,7 +42,6 @@ export const projects: Project[] = [
     jobRole: "Controller",
     client: "Valorant",
     year: "2020",
-    website: "See Live",
     websiteUrl: "https://playvalorant.com/en-us/agents/omen/",
     tech: ["PARANOIA", "DARK COVER", "SHROUDED STEP", "FROM THE SHADOWS"]
   },
@@ -60,7 +57,6 @@ export const projects: Project[] = [
     jobRole: "Controller",
     client: "Valorant",
     year: "2020",
-    website: "See Live",
     websiteUrl: "https://playvalorant.com/en-us/agents/viper/",
     tech: ["POISON CLOUD", "TOXIC SCREEN", "SNAKE BITE", "VIPER'S PIT"]
   },
@@ -76,7 +72,6 @@ export const projects: Project[] = [
     jobRole: "Sentinel",
     client: "Valorant",
     year: "2020",
-    website: "See Live",
     websiteUrl: "https://playvalorant.com/en-us/agents/deadlock/",
     tech: ["SONIC SENSOR", "BARRIER MESH", "GRAVNET", "ANNIHILATION"]
   },
@@ -92,7 +87,6 @@ export const projects: Project[] = [
     jobRole: "Duelist",
     client: "Valorant",
     year: "2020",
-    website: "See Live",
     websiteUrl: "https://playvalorant.com/en-us/agents/iso/",
     tech: ["UNDERCUT", "DOUBLE TAP", "CONTINGENCY", "KILL CONTRACT"]
   },
@@ -108,7 +102,6 @@ export const projects: Project[] = [
     jobRole: "Duelist",
     client: "Valorant",
     year: "2020",
-    website: "See Live",
     websiteUrl: "https://playvalorant.com/en-us/agents/jett/",
     tech: ["UPDRAFT", "TAILWIND", "CLOUDBURST", "BLADE STORM"]
   },
@@ -124,7 +117,6 @@ export const projects: Project[] = [
     jobRole: "Web Developer",
     client: "farmerstore88",
     year: "2025",
-    website: "See Live",
     websiteUrl: "https://www.farmerstore88.com/Goods/Detail/SMO72561946?ch_idx=181",
     tech: ["Wordpress", "Elementor"]
   },
@@ -140,7 +132,6 @@ export const projects: Project[] = [
     jobRole: "Web Developer",
     client: "farmerstore88",
     year: "2025",
-    website: "See Live",
     websiteUrl: "https://www.farmerstore88.com/Goods/Detail/SMO72561946?ch_idx=181",
     tech: ["Wordpress", "Elementor"]
   },
@@ -156,7 +147,6 @@ export const projects: Project[] = [
     jobRole: "Web Developer",
     client: "farmerstore88",
     year: "2025",
-    website: "See Live",
     websiteUrl: "https://www.farmerstore88.com/Goods/Detail/SMO72561946?ch_idx=181",
     tech: ["Wordpress", "Elementor"]
   },
@@ -172,7 +162,6 @@ export const projects: Project[] = [
     jobRole: "Web Developer",
     client: "farmerstore88",
     year: "2025",
-    website: "See Live",
     websiteUrl: "https://www.farmerstore88.com/Goods/Detail/SMO72561946?ch_idx=181",
     tech: ["Wordpress", "Elementor"]
   },
