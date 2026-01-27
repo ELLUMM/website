@@ -20,10 +20,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html>
       <body>
-        <div className="flex flex-col items-center mx-auto"> 
-          <Navbar /> 
-          <main>{children}</main>
-          <Footer/>
+        <div className="flex flex-col items-center mx-auto">
+          <Navbar />
+          <main className="w-full">{children}</main>
+          <Footer />
         </div>
       </body>
     </html>
