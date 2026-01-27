@@ -11,7 +11,7 @@ export default function ProjectSection() {
   return (
     <section className="bg-black text-white pb-32 px-6 md:px-0">
       <div className="mx-auto" style={{ maxWidth: "1232px" }}>
-        <div className="flex flex-row justify-between items-start w-full gap-x-10">
+        <div className="flex flex-col min-[993px]:flex-row justify-between items-start w-full gap-x-10">
           {/* (1) */}
           <div
             ref={left.ref}

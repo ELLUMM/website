@@ -17,7 +17,7 @@ export default function ProjectList({
 	stepDelayMs = 90,
 }: Props) {
 	return (
-		<ul className="grid grid-cols-3 gap-x-6 gap-y-10 w-full">
+		<ul className="grid w-full grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-3">
 			{projects.map((p, i) => (
 				<li
 					key={p.id}
